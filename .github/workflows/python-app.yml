@@ -1,5 +1,5 @@
 # .github/workflows/ci.yml
-name: Run Regression Tests
+name:  regression-testing
 
 on: [push, pull_request]
 
