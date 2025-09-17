@@ -11,7 +11,7 @@ def test_add_positive_numbers():
     assert response.json() == {"result": 8}
 
 def test_subtract_positive_numbers():
-    """Test subtracting two positive numbers. ..."""
+    """Test subtracting two positive numbers."""
     response = client.get("/subtract?a=10&b=4")
     assert response.status_code == 200
     assert response.json() == {"result": 6}
