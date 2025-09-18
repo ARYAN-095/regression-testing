@@ -1,13 +1,5 @@
-# main.py....
-from fastapi import FastAPI
+def add(a, b):
+    return a + b
 
-app = FastAPI()
-
-@app.get("/add")
-def add(a: int, b: int):
-    return {"result": a + b}
-
-@app.get("/subtract")
-def subtract(a: int, b: int):
-
-    return {"result": a - b}
+def subtract(a, b):
+    return a - b
